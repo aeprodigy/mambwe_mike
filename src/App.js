@@ -82,11 +82,8 @@ function App() {
         <section>
           <div className="min-h-screen">
             {/*Image starts HERE*/}
-            <div className="bg-gradient-to-b from-teal-500 rounded-full w-80  h-80 overflow-hidden mx-auto ">
+            <div className="bg-gradient-to-b from-teal-500 rounded-full md:w-80  h-50 overflow-hidden mx-auto ">
               <img src={profile} layout="fill objectFit='cover'" />
-              <h1 className=" text-2xl text-center py-5 ">
-                Image Missing here
-              </h1>
             </div>
             <div>
               <h3 className="text-2xl text-center pt-8 dark:text-white">
