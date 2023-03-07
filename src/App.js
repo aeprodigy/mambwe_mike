@@ -145,8 +145,8 @@ function App() {
               {/*Card THREE */}
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 {/* first image <Image src={design} width={100} height={100} */}
-                <h3 className="text-2xl text-bold pt-8 pb-2 ">
-                  Beautiful Designs
+                <h3 className="text-2xl text-bold pt-4 pb-2 ">
+                  Mobile Development
                 </h3>
                 <p className="py-2">
                   Creating elegant designs suited for your needs following core
@@ -155,9 +155,9 @@ function App() {
                 <h4 className="py-4 text-teal-500 font-bold">
                   Design tools I use
                 </h4>
-                <p className="text-gray-800 py-1">Adobe Photoshop</p>
-                <p className="text-gray-800 py-1">Adobe Illustrator</p>
-                <p className="text-gray-800 py-1">Adobe Xd</p>
+                <p className="text-gray-800 py-1">Flutter</p>
+                <p className="text-gray-800 py-1">React Native</p>
+                <p className="text-gray-800 py-1">Dart</p>
                 <p className="text-gray-800 py-1">Figma</p>
               </div>
             </div>
