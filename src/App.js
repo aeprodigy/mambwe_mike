@@ -94,9 +94,9 @@ function App() {
               <p className="leading-8  text-md text-center text-gray-500 dark:text-white">
                 Since I started my development journey as Software developer, I
                 have developed these
-                <span className="text-red-500 font-bold"> agencies </span>
+                <span className="text-teal-500 font-bold"> agencies </span>
                 consulted for{" "}
-                <span className="text-red-500 font-bold">Startups </span>
+                <span className="text-teal-500 font-bold">Startups </span>
                 and collaborated with talented people to create digital Products
                 for both business and consumer use.
               </p>
