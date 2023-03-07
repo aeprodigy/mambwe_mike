@@ -30,7 +30,7 @@ function App() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer text-2xl dark:text-white"
+                  className="cursor-pointer text-2xl sm:text-xl dark:text-white"
                 />
               </li>
               <li>
@@ -88,7 +88,7 @@ function App() {
               </h1>
             </div>
             <div>
-              <h3 className="text-2xl py-1 dark:text-white">
+              <h3 className="text-2xl text-center pt-8 dark:text-white">
                 Services I offer
               </h3>
               <p className="leading-8  text-md text-center text-gray-500 dark:text-white">
@@ -100,7 +100,7 @@ function App() {
                 and collaborated with talented people to create digital Products
                 for both business and consumer use.
               </p>
-              <p className="text-md py-2 leading-8 text-gray-800">
+              <p className="text-md pt-8 text-center text-2xl leading-8 text-gray-500 dark:text-white">
                 I offer from wide range of services, including brand design and
                 Programming
               </p>
