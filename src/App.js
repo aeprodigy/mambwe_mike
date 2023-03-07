@@ -30,12 +30,12 @@ function App() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer text-2xl sm:text-xl dark:text-white"
+                  className="cursor-pointer text-2xl md:text-2xl dark:text-white"
                 />
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 md:2xl text-white px-4 py-2 rounded-md ml-8"
                   target="_blank"
                   href="https://www.linkedin.com/in/mike-mambwe/"
                 >
@@ -169,7 +169,7 @@ function App() {
         {/*Portfolio Section */}
         <section>
           <div className="h-screen dark:text-white">
-            <h3 className="text-2xl py-10">Portfolio</h3>
+            <h3 className="text-2xl py-10 text-center">Portfolio</h3>
             <p className="leading-8 text-md text-gray-500 dark:text-white">
               Since I started my development journey as Software developer, I
               have developed these
@@ -179,7 +179,7 @@ function App() {
               and collaborated with talented people to create digital Products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <p className="text-md py-2 leading-8 text-gray-500 dark:text-white">
               I offer from wide range of services, including brand design and
               Programming
             </p>
