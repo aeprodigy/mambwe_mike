@@ -36,7 +36,8 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  target="_blank" href="https://www.linkedin.com/in/mike-mambwe/"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/mike-mambwe/"
                 >
                   Resume'
                 </a>
@@ -53,24 +54,23 @@ function App() {
               Software Engineer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-            I'm a Software developer specializing 
-            in building (and occasionally designing)
-             exceptional digital experiences. Currently,
-             I am focused on building responsive 
-             full-stack web applications and Mobile Applications
+              I'm a Software developer specializing in building (and
+              occasionally designing) exceptional digital experiences.
+              Currently, I am focused on building responsive full-stack web
+              applications and Mobile Applications
             </p>
           </div>
           {/**BUTTONS START HERE**/}
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href="http://" target="_blank">
+            <a href="https://twitter.com/MikeMambwe" target="_blank">
               <AiFillTwitterCircle className="dark:text-white" />
             </a>
 
-            <a href="http://" target="_blank">
+            <a href="https://www.linkedin.com/in/mike-mambwe/" target="_blank">
               <AiFillLinkedin className="dark:text-white" />
             </a>
 
-            <a href="http://" target="_blank">
+            <a href="https://github.com/aeprodigy" target="_blank">
               <AiFillGithub className="dark:text-white" />
             </a>
           </div>
@@ -186,45 +186,47 @@ function App() {
           </div>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/2 flex-1 bg-emerald-300">
-            <img src={img1} alt=""
+              <img
+                src={img1}
+                alt=""
                 width={"100%"}
                 className=" object-cover h-100 w-100"
-                
                 height={"100%"}
                 layout="responsive"
-               />
+              />
             </div>
 
             <div className="basis-1/2 flex-1 bg-emerald-300">
-            
-               <img src={img1} alt=""
+              <img
+                src={img1}
+                alt=""
                 width={"100%"}
                 className=" object-cover h-100 w-100"
-                
                 height={"100%"}
                 layout="responsive"
-               />
-              
+              />
             </div>
 
             <div className="basis-1/2 flex-1 bg-emerald-300">
-            <img src={img1} alt=""
+              <img
+                src={img1}
+                alt=""
                 width={"100%"}
                 className=" object-cover h-100 w-100"
-                
                 height={"100%"}
                 layout="responsive"
-               />
+              />
             </div>
 
             <div className="basis-1/2 flex-1 bg-emerald-300 ">
-            <img src={img1} alt=""
+              <img
+                src={img1}
+                alt=""
                 width={"100%"}
                 className=" object-cover h-100 w-100"
-                
                 height={"100%"}
                 layout="responsive"
-               />
+              />
             </div>
           </div>
         </section>
