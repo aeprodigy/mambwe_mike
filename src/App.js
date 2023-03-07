@@ -91,7 +91,7 @@ function App() {
               <h3 className="text-2xl py-1 dark:text-white">
                 Services I offer
               </h3>
-              <p className="leading-8 text-md text-gray-500 dark:text-white">
+              <p className="leading-8  text-md text-center text-gray-500 dark:text-white">
                 Since I started my development journey as Software developer, I
                 have developed these
                 <span className="text-red-500 font-bold"> agencies </span>
