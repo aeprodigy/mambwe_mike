@@ -24,14 +24,14 @@ function App() {
       <div className="App bg-white px-10 md:px-20 lg:px-40 dark:bg-black">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-bold dark:text-teal-300">
+            <h1 className="text-xl font-bold dark:text-teal-300 ">
               {"<Mambwe/>"}
             </h1>
-            <ul className="flex items-center">
+            <ul className="flex items-center ">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer text-2xl md:text-2xl dark:text-white"
+                  className="cursor-pointer text-2xl md:text-2xl   dark:text-white"
                 />
               </li>
               <li>
@@ -51,7 +51,7 @@ function App() {
             <h2 className="text-5xl py-2 font-medium text-teal-500 md:text-6xl">
               Mike Mambwe
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl text-gray-800 dark:text-gray-200">
+            <h3 className="text-2xl py-2 md:text-3xl font-bold text-gray-900 dark:text-gray-200">
               Software Engineer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
