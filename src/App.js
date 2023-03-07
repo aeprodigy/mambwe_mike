@@ -5,6 +5,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
+import profile from './profile.jpg'
 import SecondPage from './SecondPage';
 import img1 from "./img1.jpeg";
 import { useState } from 'react';
@@ -82,7 +83,7 @@ function App() {
           <div className="min-h-screen">
             {/*Image starts HERE*/}
             <div className="bg-gradient-to-b from-teal-500 rounded-full w-80  h-80 overflow-hidden mx-auto ">
-              {/*<Image src={mikePic} layout="fill objectFit="cover" />" */}
+              <img src={profile} layout="fill objectFit='cover'" />
               <h1 className=" text-2xl text-center py-5 ">
                 Image Missing here
               </h1>
