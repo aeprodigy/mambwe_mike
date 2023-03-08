@@ -1,4 +1,5 @@
 import './App.css'
+
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {
   AiFillTwitterCircle,
@@ -9,6 +10,7 @@ import profile from './profile.jpg'
 import SecondPage from './SecondPage';
 import img1 from "./img1.jpeg";
 import { useState } from 'react';
+import Footer from './Footer';
 
 
 //IMPORTS ARE DONE ABOVE THIS LINE
@@ -229,6 +231,8 @@ function App() {
           </div>
         </section>
       </div>
+      {/*The footer below */}
+      <Footer/>
     </div>
   );
 }
